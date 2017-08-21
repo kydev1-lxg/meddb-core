@@ -1,13 +1,13 @@
 // ======================================
 // Project Name:core
-// Package Name:com.kingyee.common.core.databuffer
+// Package Name:cn.meddb.core.databuffer
 // File Name:IDataHandler.java
 // Create Date:2017年03月29日  14:56
 // ======================================
-package com.kingyee.common.core.databuffer;
+package cn.meddb.core.databuffer;
 
-import com.kingyee.common.core.model.IPageInfo;
-import com.kingyee.common.core.model.ISearchBean;
+import cn.meddb.core.model.IPageInfo;
+import cn.meddb.core.model.ISearchBean;
 
 /**
  * @author 李旭光

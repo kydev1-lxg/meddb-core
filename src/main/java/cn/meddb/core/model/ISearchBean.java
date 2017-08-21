@@ -1,10 +1,10 @@
 // ======================================
 // Project Name:core
-// Package Name:com.kingyee.common.core.model
+// Package Name:cn.meddb.core.model
 // File Name:ISearchBean.java
 // Create Date:2017年03月29日  14:57
 // ======================================
-package com.kingyee.common.core.model;
+package cn.meddb.core.model;
 
 import java.util.Map;
 
