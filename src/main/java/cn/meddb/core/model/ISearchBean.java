@@ -40,6 +40,6 @@ public interface ISearchBean {
      *
      * @return Map
      */
-    Map<String, Object> getParps();
+    Map<String, Object> getParam();
 
 }
