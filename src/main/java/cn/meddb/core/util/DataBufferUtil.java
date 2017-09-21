@@ -1,10 +1,14 @@
 // ======================================
 // Project Name:core
-// Package Name:cn.meddb.core.model
+// Package Name:cn.meddb.core.util
 // File Name:DataBufferUtil.java
 // Create Date:2017年08月24日  11:37
 // ======================================
-package cn.meddb.core.model;
+package cn.meddb.core.util;
+
+import cn.meddb.core.model.IPageInfo;
+import cn.meddb.core.model.ISearchBean;
+import cn.meddb.core.model.POJOPageInfo;
 
 import java.util.ArrayList;
 import java.util.List;

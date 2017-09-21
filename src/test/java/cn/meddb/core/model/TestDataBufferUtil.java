@@ -6,6 +6,7 @@
 // ======================================
 package cn.meddb.core.model;
 
+import cn.meddb.core.util.DataBufferUtil;
 import org.junit.Test;
 
 import java.util.ArrayList;
