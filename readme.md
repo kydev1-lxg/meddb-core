@@ -2,7 +2,7 @@
 ```xml
 <dependency>
     <groupId>cn.meddb</groupId>
-    <artifactId>core</artifactId>
-    <version>0.5</version>
+    <artifactId>meddb-core</artifactId>
+    <version>0.6</version>
 </dependency>
 ```
