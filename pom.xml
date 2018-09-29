@@ -6,7 +6,7 @@
 
     <groupId>cn.meddb</groupId>
     <artifactId>meddb-core</artifactId>
-    <version>0.6</version>
+    <version>1.0</version>
     <packaging>jar</packaging>
     <name>meddb-core</name>
     <description>医研通基础代码</description>
@@ -14,6 +14,7 @@
     <properties>
         <project.build.sourceEncoding>utf-8</project.build.sourceEncoding>
         <project.reporting.outputEncoding>utf-8</project.reporting.outputEncoding>
+        <spring.jdbc.version>4.3.18.RELEASE</spring.jdbc.version>
     </properties>
     <issueManagement>
         <system>Github Issue</system>
@@ -46,6 +47,11 @@
             <artifactId>junit</artifactId>
             <version>4.12</version>
             <scope>test</scope>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework</groupId>
+            <artifactId>spring-jdbc</artifactId>
+            <version>${spring.jdbc.version}</version>
         </dependency>
     </dependencies>
     <build>
