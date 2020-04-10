@@ -6,6 +6,8 @@
 // ======================================
 package cn.meddb.core.exception;
 
+import java.text.MessageFormat;
+
 /**
  * 参数错误
  *
@@ -28,6 +30,15 @@ public class ParameterIllegalException extends BaseBizException {
 
     public ParameterIllegalException(Throwable cause) {
         super(cause);
+    }
+
+    /**
+     * {@link MessageFormat} 所有参数转为字符串处理
+     *
+     * @param msgFormatter 例如:XXX{0}XXX{1}XXX{2}XXX,
+     */
+    public ParameterIllegalException(String msgFormatter, Object... params) {
+        super(msgFormatter, params);
     }
 
 }
